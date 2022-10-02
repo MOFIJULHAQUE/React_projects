@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    text-align:center;
+    list-style-type:none;
+    padding: 10px;
+    font-weight: bolder;
+
+
+}
+ul{
+    display:grid;
+    grid-template-columns: repeat(3,1fr)
+}
+.card{
+margin : 10px;
+}
+ul .card-main {
+    /* background-color: aquamarine; */
+    border : 2px solid black;
+    border-radius: 5px;
+    /* border-left: none;;
+    border-top: none;; */
+    height: 100%;
+    width: auto;
+    max-height: 350px;
+}
+ul .card-main .card-inner p span {
+    font-size: 1rem;
+}
+ul .card-main .card-inner p  {
+    font-size: 1.9rem;
+}
+.card-total{
+    font-size: 2.4rem;
+}
+.btn{
+    border-radius: 5px;
+    cursor: pointer;
+}
