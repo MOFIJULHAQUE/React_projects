@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+width: 70%;
+height: 450px;
+border-radius: 20px;
+}
+input{
+  background:rgb(230, 227, 227);
+  border-radius: 10px;
+}
+button{
+  margin-top: 85px;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.field{
+  margin-top: 50px;
+}
